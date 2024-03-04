@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/zain/Documents/GitHub/Django-Practice/Traversy/studypartner/djenv"
+VIRTUAL_ENV="/home/zain/Documents/GitHub/ChatHive-django/djenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

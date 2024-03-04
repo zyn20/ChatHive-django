@@ -1,4 +1,4 @@
-#!/home/zain/Documents/GitHub/Django-Practice/Traversy/studypartner/djenv/bin/python3
+#!/home/zain/Documents/GitHub/ChatHive-django/djenv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

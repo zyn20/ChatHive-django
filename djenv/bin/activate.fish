@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/zain/Documents/GitHub/Django-Practice/Traversy/studypartner/djenv"
+set -gx VIRTUAL_ENV "/home/zain/Documents/GitHub/ChatHive-django/djenv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
