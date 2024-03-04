@@ -3,6 +3,8 @@
 {% block content %}
     <h1>List of Rooms</h1>
     <div>
+
+        <a href="{% url 'create-room' %}">Create Room</a>
         <div>
             {% for r in rooms %}
                 <div>

@@ -19,6 +19,9 @@ class Room (models.Model):
     created = models.DateTimeField(auto_now_add = True)
     # auto_now_add takes the time when first time instance was created or inital timestamp
     
+    class Meta:
+        ordering = ['-updated','-created']
+    
     def __str__(self):
         return self.name
 class Message (models.Model):
